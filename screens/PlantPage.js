@@ -42,7 +42,7 @@ export default class PlantPage extends Component {
   };
 
   state = {
-    graphData: fertilizerData,
+    graphData: hydrationData,
     btn1:activeBtn,
     btn2:disabledBtn,
     btnTitle1: activeTitle,

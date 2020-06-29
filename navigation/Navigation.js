@@ -7,7 +7,7 @@ import Charts from '../components/Charts'
 
 const screens = {
     Home : {
-        screen : PlantPage
+        screen : Home
     }, 
     PlantPage : {
         screen : PlantPage

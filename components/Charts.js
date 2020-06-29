@@ -20,9 +20,7 @@ export default class Charts extends Component {
         <VictoryBar
           style={{ data: { fill: "#96C160" } }}
           data={this.props.graphData}
-          animate={this.props.animate}
-          barHeight={100}
-          
+          animate={this.props.animate}          
         />
         <VictoryAxis style={{ axis: { stroke: "none" }, tickLabels: {fill: '#c3c3c3' }, }}   />
       </VictoryChart>
